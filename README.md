@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>хаос тоже порядок</strong><br/>
+  <strong>chaos is also order</strong><br/>
   Simple random <a href="https://www.navidrome.org/">Navidrome</a> / Subsonic client for Android
 </p>
 
@@ -46,14 +46,10 @@ export ANDROID_HOME=/path/to/Android/Sdk
 # APK → app/build/outputs/apk/release/app-release.apk
 ```
 
-`applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.2
+`applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.3
 
-### F-Droid
-
-Store metadata: [`fastlane/metadata/android/`](fastlane/metadata/android/). Draft fdroiddata recipe: [`docs/fdroid/`](docs/fdroid/).
-
-Release signing: set `keystore.properties` (see `keystore.properties.example`), or
-`MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, the APK is unsigned (F-Droid/CI).
+Release signing is optional: set `keystore.properties` (see `keystore.properties.example`), or
+`MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, `assembleRelease` is unsigned (fine for F-Droid/CI).
 
 ## Setup
 
