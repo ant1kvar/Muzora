@@ -32,7 +32,7 @@ Muzora is a small Android client focused on **random listening** from your Navid
 
 ### Release APK
 
-Download: [`releases/muzora-1.2.2.apk`](releases/muzora-1.2.2.apk)
+Download: https://github.com/ant1kvar/Muzora/releases/download/v1.2.2/muzora-1.2.2.apk
 
 ```bash
 adb install -r releases/muzora-1.2.2.apk
