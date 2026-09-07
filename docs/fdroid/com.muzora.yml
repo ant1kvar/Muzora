@@ -1,0 +1,34 @@
+Categories:
+  - Multimedia
+  - Internet
+License: MIT
+AuthorName: ant1kvar
+WebSite: https://github.com/ant1kvar/Muzora
+SourceCode: https://github.com/ant1kvar/Muzora
+IssueTracker: https://github.com/ant1kvar/Muzora/issues
+Changelog: https://github.com/ant1kvar/Muzora/releases
+
+AntiFeatures:
+  - UsesCleartextTraffic
+
+AutoName: Muzora
+
+RepoType: git
+Repo: https://github.com/ant1kvar/Muzora.git
+
+Builds:
+  - versionName: 1.2.2
+    versionCode: 5
+    commit: v1.2.2
+    subdir: app
+    sudo:
+      - apt-get update
+      - apt-get install -y openjdk-17-jdk-headless
+      - update-java-alternatives -a
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.2.2
+CurrentVersionCode: 5

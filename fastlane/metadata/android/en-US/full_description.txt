@@ -1,0 +1,12 @@
+Muzora is a small Android client focused on random listening from your Navidrome or any Subsonic-compatible server.
+
+Features:
+• Shuffle queue with prefetch and offline playback from a local cache
+• Likes, dislikes, favorites, and library search
+• Internet radio (server stations + custom streams) with ICY metadata
+• Guest radio before login
+• English and Russian UI
+
+Connect to your own server URL — credentials stay on the device and are only sent to the server you configure. No accounts, ads, or tracking in the app.
+
+Cleartext HTTP is allowed so you can reach LAN servers (http://192.168.x.x) and radio streams that are still HTTP. Prefer HTTPS when available.

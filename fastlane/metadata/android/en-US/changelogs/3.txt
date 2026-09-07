@@ -1,0 +1,1 @@
+English default locale, seek bar, offline recovery, cleartext LAN/radio support, cache-only playback option.

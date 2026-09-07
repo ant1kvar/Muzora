@@ -1,0 +1,26 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.kotlin/
+logs/
+# Keep release APKs under releases/, ignore other APKs
+*.apk
+!releases/*.apk
+keystore.properties
+*.jks
+*.keystore
+!**/debug.keystore

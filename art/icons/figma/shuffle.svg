@@ -1,0 +1,19 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="28" fill="#1E1E1E"/>
+<g id="Player / Online">
+<rect x="-276" y="-600" width="358" height="798" rx="27" fill="#020C02"/>
+<rect x="-276" y="-600" width="358" height="798" rx="27" stroke="#00B3BF" stroke-width="2"/>
+<g id="Controls transport">
+<g id="Shuffle">
+<rect x="-15" y="-15" width="58" height="58" rx="29" fill="#041213"/>
+<g id="Shuffle icon">
+<path id="Vector" d="M21 16.3333L25.6667 21L21 25.6666" stroke="#00F0FF" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M21 2.33331L25.6667 6.99998L21 11.6666" stroke="#00F0FF" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M2.33334 21H4.63518C5.38942 21.0051 6.13367 20.8274 6.80418 20.482C7.4747 20.1366 8.0515 19.6338 8.48518 19.0167L14.8482 8.98332C15.2819 8.36621 15.8587 7.86341 16.5292 7.518C17.1997 7.17258 17.9439 6.99484 18.6982 6.99999H25.6667" stroke="#00F0FF" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M2.33334 6.99999H4.63401C5.50371 6.99394 6.3578 7.23105 7.09992 7.68456C7.84204 8.13808 8.44266 8.78996 8.83401 9.56666" stroke="#00F0FF" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M25.6667 21H18.6188C17.8542 20.9922 17.1031 20.7966 16.4318 20.4304C15.7605 20.0642 15.1894 19.5387 14.7688 18.9L14.35 18.2373" stroke="#00F0FF" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

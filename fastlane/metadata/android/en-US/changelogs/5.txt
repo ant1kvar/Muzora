@@ -1,0 +1,1 @@
+F-Droid packaging: optional release signing, Fastlane metadata (EN/RU), unsigned CI builds.

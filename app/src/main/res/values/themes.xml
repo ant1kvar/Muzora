@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Muzora" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/muzora_bg</item>
+        <item name="android:navigationBarColor">@color/muzora_bg</item>
+        <item name="android:windowBackground">@color/muzora_bg</item>
+        <item name="android:colorPrimary">@color/muzora_accent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

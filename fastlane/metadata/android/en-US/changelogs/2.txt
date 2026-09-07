@@ -1,0 +1,1 @@
+Initial public release: shuffle queue, offline cache, favorites, search, radio, EN/RU UI.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cleartext is allowed: users often point Muzora at LAN Navidrome (http://192.168.x.x)
+  and many public radio streams are still http://. HTTPS is preferred in the UI placeholders.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
