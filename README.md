@@ -52,18 +52,8 @@ export ANDROID_HOME=/path/to/Android/Sdk
 
 `applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.2
 
-### F-Droid
-
-Not on F-Droid yet. Packaging for submission:
-
-- Store listing: [`fastlane/metadata/android/`](fastlane/metadata/android/)
-- fdroiddata recipe draft: [`docs/fdroid/com.muzora.yml`](docs/fdroid/com.muzora.yml)
-- How to submit: [`docs/fdroid/README.md`](docs/fdroid/README.md)
-
-Source for F-Droid builds: `https://github.com/ant1kvar/Muzora.git` (tag e.g. `v1.2.2`).
-
-Release signing (optional for local APKs): set `keystore.properties` (see `keystore.properties.example`), or
-`MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, `assembleRelease` is unsigned — that is what F-Droid/CI expects.
+Release signing is optional: set `keystore.properties` (see `keystore.properties.example`), or
+`MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, `assembleRelease` is unsigned (fine for F-Droid/CI).
 
 ## Setup
 
