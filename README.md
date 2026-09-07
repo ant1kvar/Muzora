@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>chaos is also order</strong><br/>
+  <strong>хаос тоже порядок</strong><br/>
   Simple random <a href="https://www.navidrome.org/">Navidrome</a> / Subsonic client for Android
 </p>
 
@@ -24,13 +24,9 @@ Muzora is a small Android client focused on **random listening** from your Navid
 
 ## Screenshots
 
-| Auth | Connected | Player |
-|:---:|:---:|:---:|
-| ![auth](docs/screenshots/start-auth.png) | ![connected](docs/screenshots/start-connected.png) | ![player](docs/screenshots/player-online.png) |
-
-| Faves | Radio |
-|:---:|:---:|
-| ![faves](docs/screenshots/faves.png) | ![radio](docs/screenshots/radio.png) |
+| Login | Connected | Player | Radio |
+|:---:|:---:|:---:|:---:|
+| ![login](docs/screenshots/login.jpg) | ![connected](docs/screenshots/connected.jpg) | ![player](docs/screenshots/player-online.jpg) | ![radio](docs/screenshots/radio.jpg) |
 
 ## Install
 
@@ -50,10 +46,14 @@ export ANDROID_HOME=/path/to/Android/Sdk
 # APK → app/build/outputs/apk/release/app-release.apk
 ```
 
-`applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.3
+`applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.2
 
-Release signing is optional: set `keystore.properties` (see `keystore.properties.example`), or
-`MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, `assembleRelease` is unsigned (fine for F-Droid/CI).
+### F-Droid
+
+Store metadata: [`fastlane/metadata/android/`](fastlane/metadata/android/). Draft fdroiddata recipe: [`docs/fdroid/`](docs/fdroid/).
+
+Release signing: set `keystore.properties` (see `keystore.properties.example`), or
+`MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, the APK is unsigned (F-Droid/CI).
 
 ## Setup
 
