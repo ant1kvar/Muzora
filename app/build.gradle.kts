@@ -16,13 +16,14 @@ android {
         applicationId = "com.muzora"
         minSdk = 26
         targetSdk = 35
-        versionCode = 5
-        versionName = "1.2.2"
+        versionCode = 6
+        versionName = "1.2.3"
     }
 
     // Signing is optional so F-Droid/CI can produce an unsigned release APK.
     // Local signed builds: copy keystore.properties.example → keystore.properties
     // (or set MUZORA_USE_DEBUG_SIGNING=1 to reuse ~/.android/debug.keystore).
+    // Use findByName — F-Droid strips signingConfigs and getByName("release") would fail.
     signingConfigs {
         create("release") {
             val propsFile = rootProject.file("keystore.properties")
@@ -52,9 +53,10 @@ android {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
-            val releaseSigning = signingConfigs.getByName("release")
-            if (releaseSigning.storeFile?.exists() == true) {
-                signingConfig = releaseSigning
+            signingConfigs.findByName("release")?.let { cfg ->
+                if (cfg.storeFile?.exists() == true) {
+                    signingConfig = cfg
+                }
             }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),

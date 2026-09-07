@@ -50,7 +50,7 @@ export ANDROID_HOME=/path/to/Android/Sdk
 # APK → app/build/outputs/apk/release/app-release.apk
 ```
 
-`applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.2
+`applicationId`: `com.muzora` · `minSdk` 26 · `version` 1.2.3
 
 Release signing is optional: set `keystore.properties` (see `keystore.properties.example`), or
 `MUZORA_USE_DEBUG_SIGNING=1` for the Android debug keystore. Without either, `assembleRelease` is unsigned (fine for F-Droid/CI).
